@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+server.log
+
+# Data and models
+FAISS_recetas/*.index
+*.parquet
+
+# Test files
+check_db.py
+hola.json
+api_examples.json
+
+# LaTeX
+*.aux
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+latex.tex
