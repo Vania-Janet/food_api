@@ -63,13 +63,9 @@ Endpoint principal para obtener tarjetas de recetas con precios y análisis de r
 #### Request
 
 ```bash
-curl -X POST http://localhost:8000/recommend \
+curl -X POST https://food-api-vgt8.onrender.com/recommend \
   -H "Content-Type: application/json" \
-  -d '{
-    "ingredients": ["chicken", "rice", "tomato", "onion"],
-    "city": "Ciudad de México",
-    "max_results": 3
-  }'
+  -d '{"ingredients": ["chicken", "rice", "tomato"], "city": "Ciudad de México"}'
 ```
 
 #### Response
